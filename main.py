@@ -37,10 +37,10 @@ print(" ")
 #Imprimimos una lista de las semanas en un mes
 print("\nLas semanas completas del mes de Noviembre del año", año, "\n")
 mes = calendar.Calendar()
-print(mes.monthdatescalendar(año, 11))
+print((mes.monthdatescalendar(año, 11)))
 
 #Imprimimos los días de las semanas de el mes anterior
 print("\nDías contenidos en el ejercicio anterior\n")
 itermes = calendar.Calendar()
 for i in itermes.itermonthdates(año, 11):
-    print(i, end="  ,  ")
+    print(i, end="  ")
